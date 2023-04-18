@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;  
+}
+
+body {
+
+    font-family: sans-serif;
+    background-color: rgb(26, 24, 24);
+}
+
+
+header {
+
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+
+header img {
+
+    width: 300px;
+
+}
+
+
+header a {
+
+    color: #6d776b;
+    text-decoration: none;
+    transition: color 0.2ms;
+
+} 
+
+
+header nav ul {
+
+    list-style: none;
+    display: flex;
+
+
+}
+
+header ul li + li {
+
+    margin-left: 24px;
+
+}
+
+header a:hover {
+
+    color:rgb(22, 173, 148)
+
+}
+
+.hero {
+    min-width: 100px;    
+    height: 970px;
+    padding: 24px;
+
+    background-image: url("../img\ potter/potter4.jpg");
+    background-size: cover;
+    background-position: center ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero h1 {
+
+    color: aquamarine;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ 
+
+.gallery {
+
+    width: 100%;
+    margin: 94px auto 0;
+    padding: 0 24px;
+
+}
+
+.gallery h2 { 
+
+    color: aliceblue;
+    margin-bottom: 32px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(22, 173, 148);
+
+}
+
+
+
+
+ .gallery-row {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px; 
+
+ }
+
+ .gallery-row div {
+
+    flex: 1 1 50px;
+
+ }
+
+.teste {
+
+    width: 1000px;
+    flex: 1 1 100px;
+}
+
+
+ .gallery-row img {
+
+    width: 100%;
+    border-radius: 200px;
+    margin-bottom: 16px;
+
+ }
+
+ .gallery p {
+
+    font-weight: bold;
+    color: aliceblue;
+    
+ }
+
+ .Créditos {
+
+        margin: 65px 0 400;
+        padding: 94px 24px;
+
+
+        background-color: black;
+        color: aliceblue;
+
+        border-top: 1px solid rgb(22, 173, 148);  
+
+ }
+
+ .Créditos h2{
+
+    color: aliceblue;
+    margin-bottom: 32px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(22, 173, 148);  
+
+ }
+
+.Créditos p {
+
+    line-height: 1.5 ;
+
+}
+
+.Créditos p + p {
+
+    margin-top: 24px;
+
+}
+
+
+.Créditos .container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 18x;
+
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(22, 173, 148);
+
+}
+
+
+.Créditos .container .col {
+
+    flex: 1 1 350;
+
+}
+
+.Créditos .container .col img {
+
+    width: 100%;
+    display: block;
+    
+
+}
+
+
+ .Créditos a {
+
+    color: aqua;
+    transition: 0.3s;
+
+ }
+
+ 
+
+ .Créditos a:hover {
+
+    color:rgba(71, 80, 72, 0.877)
+
+ }
+
+ .imgagens-potter, .escritas, .crucio{
+
+visibility: hidden;
+
+ }
